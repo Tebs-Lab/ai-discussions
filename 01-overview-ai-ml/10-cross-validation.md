@@ -13,3 +13,7 @@ Stratified K-Fold cross validation is like K-Fold, but it takes extra steps to e
 ![Stratified K-Fold Cross Validation Visualized](https://scikit-learn.org/stable/_images/sphx_glr_plot_cv_indices_0071.png)
 
 Typically "stratified" tactics are applied to classification problems, but there are similar tactics for regression problems. See this article for more information about that: https://scottclowe.com/2016-03-19-stratified-regression-partitions/
+
+## A Note:
+
+For time series data, you always want your validation and test sets to include only instances that are *more recent* than your training data. Just like with other tasks, training data should only include information that would be available before the prediction needs to be made, and with time series data that means only including training data generated **prior** to the prediction event.
