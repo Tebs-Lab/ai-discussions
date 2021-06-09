@@ -14,3 +14,12 @@ Instead of relying on some kind of state transformer—that is some way to get r
 
 > Image Source: https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf
 
+# This trick works in other ways too...
+
+By treating the neural network as a function that maps readings from the environment to a set of actions, we can address a number of the RL challenges, including the struggles with continuous and large states... Consider:
+
+* Neural Networks act as feature extractors!
+* When it works, the NN is extracting "relevant" features from the state space and making the right decision.
+* The reward function is more or less used as the "label" (in fact it's the bellman equation)
+* This means the env readings don't HAVE to be pixels, they can be anything we know how to process with a neural network (which is a LOT of things).
+    * In fact we could reasonably provide audio data, image data, text data, and more in a multi-modal network or ensemble several networks together...
