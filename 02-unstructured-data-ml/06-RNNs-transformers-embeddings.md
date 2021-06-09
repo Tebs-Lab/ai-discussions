@@ -138,4 +138,15 @@ For each output, we compute a loss and the gradients flow backwards through the 
 
 ## Transformers 
 
-TODO: This section... https://jalammar.github.io/illustrated-transformer/
+* Transformers solve the sequence problem a different way:
+    * By adding a novel "attention" layer to the neural network.
+* The attention layer is an N^2 layer that learns to give values for each word-to-word combination
+* Transformers take better advantage of modern GPU hardware, RNN's are sequential by design but the attention layer can be processed in a data parallel way.
+* Transformers seem to handle transfer learning better than RNNs.
+* Most SOTA language systems are transformers, but there are some situations where RNNs are still more popular:
+    * Truly infinite or unknown length sequences. The attention mechanism has a maximum size defined in the architecture, RNN's can continue reading an infinite sequence. There are hacks to handle this in transformers, and most real problems don't have this property.
+    * Interesting applications like Google's NMT use both, a Transformer encoder and a LSTM decoder
+    * Transformers generally need more data to train.
+
+
+* Great resource: https://jalammar.github.io/illustrated-transformer/
