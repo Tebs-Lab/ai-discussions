@@ -28,4 +28,4 @@ This is a system (or set of systems) that predicts:
 
 ### Bail Setting
 
-This is a system that attempts to generate a monetary value bail for someone who has been charged with a crime.
+This is a system that attempts to generate a monetary bail value for someone who has been charged with a crime.
