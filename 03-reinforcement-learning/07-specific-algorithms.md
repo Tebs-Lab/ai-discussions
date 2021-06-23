@@ -2,7 +2,7 @@
 
 ## Model-based vs model-free
 
-[]!(https://miro.medium.com/max/700/1*BsN4a2N1EDmgG19wWDd9CQ.png)
+![](https://miro.medium.com/max/700/1*BsN4a2N1EDmgG19wWDd9CQ.png)
 
 * Some RL methods attempt to construct a model of the environment, e.g. try to explicitly define the states, transitions, and their costs/rewards. Once constructed, the RL agent searches the underlying representation and makes decisions based on that search.
 
