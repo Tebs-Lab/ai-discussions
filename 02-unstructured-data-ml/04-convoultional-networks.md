@@ -6,7 +6,7 @@ But, for data such as images, it seems crazy to ignore the spatial relationships
 
 The fundamental unit of a CNN is a "convolution":
 
-![](img/convolution.png)
+![](assets/convolution.png)
 
 > Image Source: https://github.com/PetarV-/TikZ/tree/master/2D%20Convolution
 
@@ -24,7 +24,7 @@ This value is (optionally, but typically) then passed through a non-linearity li
 
 Here is a helpful animation to visualize convolutions:
 
-![](img/animated-conv.gif)
+![](assets/animated-conv.gif)
 
 > Image source: https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d
 
@@ -54,7 +54,7 @@ A convolutional layer has a few important properties:
 
 One last important concept before we build a CNN: pooling. Pooling is a tactic used to decrease the resolution of our feature maps, and it is largely an issue of computational efficency. There are 2 popular kinds, max pooling and average pooling. Pooling layers use a window size, say 2x2, and take either the max or average value within each window to produce the output layer. The windows are almost always square, and the stride size is almost always set to the size of the window:
 
-![](img/maxpool.jpeg)
+![](assets/maxpool.jpeg)
 
 > Image source: https://cs231n.github.io/convolutional-networks/
 
