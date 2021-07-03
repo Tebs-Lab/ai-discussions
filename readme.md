@@ -4,7 +4,7 @@ Artificial Intelligence is now all but ubiquitous. Computer systems now fill our
 
 The materials in this repository are meant to drive meaningful lectures and discussions about artificial intelligence, machine learning, and the larger software systems based on this technology.
 
-This class attempts to address the theoretical underpinnings of modern AI systems, as well as the social implications of the deployment of such systems. While some of the topics are technical in nature, the purpose of these materials is explicitly to target a general audience, as such there is are no prerequisite knowledge expectations.
+This class attempts to address the theoretical underpinnings of modern AI systems, as well as the social implications of the deployment of such systems. While some of the topics are technical in nature, the purpose of these materials is explicitly to target a general audience, as such there are no prerequisite knowledge expectations.
 
 ## Running a Class With These Materials
 
