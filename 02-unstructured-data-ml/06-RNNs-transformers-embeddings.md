@@ -1,4 +1,4 @@
-# Enconding Natural Data
+# Encoding Natural Data
 
 One of the primary challeges in natural language processing is properly encoding the text so that mathematical models such as neural networks can extract meaning from the text, and process it into some kind of result. The field has evolved quite a lot over time, and we're going to briefly present a few of the once-common strategies for language encoding then spend some time talking about the current favorite method: embeddings.
 
