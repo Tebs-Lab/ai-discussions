@@ -7,8 +7,9 @@ In this exercise you'll be broken into small teams and asked to research well kn
 Answer the following questions for each of the following tasks
 
 * Text Translation
-* Time Series Forecasting
+* Document Summarization
 * Text Generation
+* Time Series Forecasting
 
 1. Can you find the name of an architecture that is current and popular for this task?
     * When was this architecture first used/described?
