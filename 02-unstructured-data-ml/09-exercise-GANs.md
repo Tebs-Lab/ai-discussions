@@ -1,4 +1,4 @@
-# Exercise: Research Specific CNN Architectures
+# Exercise: Research Specific GAN Architectures
 
 In this exercise you'll be broken into small teams and asked to research well known architectures for certain types of problems.
 
