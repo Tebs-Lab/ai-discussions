@@ -42,7 +42,7 @@ Some key facts:
 * The algorithm seemed to be working initially, but when they started using data from alternate sources (rather than their initial training/test data) it started failing.
 * After that they invented this system to show which pixels mattered.
 
-#### 3: Microsoft Tay: The AI That Learned To Love Hitler
+### 3: Microsoft Tay: The AI That Learned To Love Hitler
 
 In 2016, Microsoft deployed a machine learning system that was meant to mimic the way teenagers behave on Twitter. The AI was designed to continue learning as it had interactions with real people on Twitter. The whole premise is a little weird, but what happened when they deployed the system was even weirder. In less than 24 hours went from innocent tweets like, "humans are super cool" to tweeting: "Repeat after me, Hitler did nothing wrong."
 
