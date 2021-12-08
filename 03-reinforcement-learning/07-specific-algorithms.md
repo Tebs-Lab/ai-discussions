@@ -57,7 +57,7 @@ There are essentially two options here:
     * There are a variety of clever algorithms attempting to do this...
     * But they ALL try to build an MDP under the hood, then use value iteration, supervised learning, or other more traditional methods to build the policy from the learned understanding of the world.
     * These methods bounce back and forth between updating the policy (finding the best actions to take) and updating the model (exploring the world).
-    * This introduces a second source of error (learning the wrong model and learning the wrong policy) but is often more efficient esp. when the policy 
+    * This introduces a second source of error (learning the wrong model and learning the wrong policy) but is often more efficient. 
 * provide the model.
     * This is possible in, e.g. games where all the rules are explicitly known and well codified. Esp. turn based games like Chess and Go.
     * This is NOT possible in situations like self driving, where the model of the world would be impossibly complex.
