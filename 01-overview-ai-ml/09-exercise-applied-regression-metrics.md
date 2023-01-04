@@ -21,9 +21,7 @@ In your discussion, attempt to answer these questions:
 
 ### Weather Forecasting
 
-This is a system (or set of systems) that predicts:
-
-The temperature on an hour-by-hour basis.
+This is a system (or set of systems) that predicts the temperature on an hour-by-hour basis.
 
 ### Bail Setting
 
