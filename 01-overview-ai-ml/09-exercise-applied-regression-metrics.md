@@ -23,8 +23,7 @@ In your discussion, attempt to answer these questions:
 
 This is a system (or set of systems) that predicts:
 
-1. The temperature on an hour-by-hour basis.
-2. The chance of precipitation on an hour-by-hour basis.
+The temperature on an hour-by-hour basis.
 
 ### Bail Setting
 
