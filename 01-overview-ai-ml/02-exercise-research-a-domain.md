@@ -5,7 +5,7 @@ In this exercise you'll be divided into small teams (2-3 people) then asked to:
 * Pick an AI topic.
 * Perform some research related to that topic.
 
-## Pick a Topic (5-8 minutes):
+## Pick a Topic (less than 5 minutes):
 
 Here is a medium length (and non-exhaustive) list of subdomains and applications of AI. You may choose one of these, or explore another topic that interests you:
 
@@ -66,7 +66,7 @@ A short list of possible topics:
     * Drug discovery.
     * Genetic engineering.
 
-## Questions to Ask (~40 minutes)
+## Questions to Ask (~25 minutes)
 
 Once you've picked a topic, you'll be exploring it! Here are some interesting questions you might try to answer about your topic:
 
